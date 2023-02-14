@@ -42,7 +42,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Log In"/>
                                 <connections>
-                                    <action selector="logInButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6Dw-78-TRz"/>
+                                    <action selector="logInButton" destination="BYZ-38-t0r" eventType="touchUpInside" id="RrG-sI-nkh"/>
                                     <segue destination="mCk-Ld-tjb" kind="presentation" modalPresentationStyle="fullScreen" id="4Fh-NO-5Yh"/>
                                 </connections>
                             </button>
@@ -146,7 +146,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Log Out"/>
                                 <connections>
-                                    <action selector="logOutButton" destination="mCk-Ld-tjb" eventType="touchUpInside" id="KyW-yv-k24"/>
+                                    <segue destination="gIp-WU-p7Q" kind="unwind" unwindAction="unwindToFirstScreen:" id="SmE-gM-ZNh"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -167,6 +167,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DhV-2k-RiL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="gIp-WU-p7Q" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="798" y="-23"/>
         </scene>

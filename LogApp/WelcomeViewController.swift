@@ -12,16 +12,16 @@ final class WelcomeViewController: UIViewController {
     @IBOutlet weak var userLabel: UILabel!
     @IBOutlet weak var unicodeWelcomeLabel: UILabel!
     
+    var user: User!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        userLabel.text = "\(user.login)"
         setGradientBackground()
         unicodeWelcomeLabel.text = "\u{1F44B}"
       
     }
 
-    @IBAction func logOutButton() {
-        dismiss(animated: true)
-    }
     
     func setGradientBackground() {
         let colorTop =  UIColor(red: 255.0/255.0,

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CEBB6B81299B565200CAA2EF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBB6B80299B565200CAA2EF /* User.swift */; };
 		CEC499AF2999FFD100ECEDD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC499AE2999FFD100ECEDD8 /* AppDelegate.swift */; };
 		CEC499B12999FFD100ECEDD8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC499B02999FFD100ECEDD8 /* SceneDelegate.swift */; };
 		CEC499B32999FFD100ECEDD8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEC499B22999FFD100ECEDD8 /* LoginViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CEBB6B80299B565200CAA2EF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		CEC499AB2999FFD100ECEDD8 /* LogApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LogApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC499AE2999FFD100ECEDD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEC499B02999FFD100ECEDD8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				CEC499B02999FFD100ECEDD8 /* SceneDelegate.swift */,
 				CEC499B22999FFD100ECEDD8 /* LoginViewController.swift */,
 				CEC499C2299A005500ECEDD8 /* WelcomeViewController.swift */,
+				CEBB6B80299B565200CAA2EF /* User.swift */,
 				CEC499B42999FFD100ECEDD8 /* Main.storyboard */,
 				CEC499B72999FFD200ECEDD8 /* Assets.xcassets */,
 				CEC499B92999FFD200ECEDD8 /* LaunchScreen.storyboard */,
@@ -144,6 +147,7 @@
 				CEC499B32999FFD100ECEDD8 /* LoginViewController.swift in Sources */,
 				CEC499C3299A005500ECEDD8 /* WelcomeViewController.swift in Sources */,
 				CEC499AF2999FFD100ECEDD8 /* AppDelegate.swift in Sources */,
+				CEBB6B81299B565200CAA2EF /* User.swift in Sources */,
 				CEC499B12999FFD100ECEDD8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
